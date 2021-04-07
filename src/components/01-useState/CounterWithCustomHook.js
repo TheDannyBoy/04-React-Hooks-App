@@ -4,7 +4,7 @@ import './counter.css';
 
 export const CounterWithCustomHook = () => {
 
-  const { state:counter, increment, decrement, reset } = useCounter();
+  const { counter, increment, decrement, reset } = useCounter();
 
   return (
     <>
