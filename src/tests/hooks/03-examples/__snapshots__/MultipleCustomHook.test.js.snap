@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MultipleCustomHook hook should show correctly 1`] = `
+<div>
+  <h1>
+    Breaking Bad posts
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote
+  </button>
+</div>
+`;
+
+exports[`Testing MultipleCustomHook hook should show data 1`] = `
+<div>
+  <h1>
+    Breaking Bad posts
+  </h1>
+  <hr />
+  <blockquote
+    className="blockquote text-right"
+  >
+    <p
+      className="mb-100"
+    >
+      -
+    </p>
+    <footer
+      className="blockquote-footer"
+    >
+      Dany
+    </footer>
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote
+  </button>
+</div>
+`;
